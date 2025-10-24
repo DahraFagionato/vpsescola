@@ -4,8 +4,8 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-     "dev": "npx nodemon api/server.js",
-    "postinstall": "prisma migrate dev --name init && prisma generate"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "DahraFagionato",
